@@ -2,7 +2,8 @@
   "name": "test-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "build/test.js",
+  "main": "build",
+  "module": "build",
   "scripts": {
     "build": "npx tsc"
   },
@@ -10,6 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^3.8.2"
+    "typescript": "3.8.3"
+  },
+  "dependencies": {
+    "@types/lodash": "4.14.149",
+    "lodash": "4.17.15"
   }
 }
